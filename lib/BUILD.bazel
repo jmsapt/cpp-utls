@@ -1,0 +1,6 @@
+cc_library(
+    name = "channel",
+    hdrs = [ "Channel.hpp" ],
+    copts = [ "-std=c++20" ],
+    visibility = [ "//visibility:public" ],
+)

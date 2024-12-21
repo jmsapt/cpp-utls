@@ -1,0 +1,12 @@
+cc_test(
+    name = "channel",
+    srcs = [ 
+        "ChannelTest.cpp"
+    ],
+    deps = [
+        "//lib:channel",
+        "@googletest//:gtest",
+        "@googletest//:gtest_main",
+    ],
+    copts = [ "-std=c++20" ],
+)
